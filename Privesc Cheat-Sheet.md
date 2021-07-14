@@ -2,7 +2,7 @@
 
 ## System Enumeration
 
-Kernel info - uname -a 
+Kernel info - ``` uname -a ```
 
 Proccesses,services - ps aux, ps aux | grep root
 
