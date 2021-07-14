@@ -4,17 +4,17 @@
 
 Kernel info - ``` uname -a ```
 
-Proccesses,services - ps aux, ps aux | grep root
+Proccesses,services - ```ps aux, ps aux | grep root```
 
-Suid - find / -perm -u=s -type f 2>/dev/null, find / -type f -perm -04000 -ls 2>/dev/null find / -perm -4000 2>/dev/null
+Suid - ```find / -perm -u=s -type f 2>/dev/null, find / -type f -perm -04000 -ls 2>/dev/null find / -perm -4000 2>/dev/null```
 
-trace - strace /usr/local/bin/suid-so 2>&1 | grep -i -E "open|access|no such file"
+trace - ```strace /usr/local/bin/suid-so 2>&1 | grep -i -E "open|access|no such file"```
 
-Capabilities - getcap -r / 2>/dev/
+Capabilities - ```getcap -r / 2>/dev/```
 
-NFS - cat /etc/exports
+NFS - ```cat /etc/exports```
 
-Architechture and cpu info - lscpu
+Architechture and cpu info - ```lscpu```
 
 ## User Enumeration
 
