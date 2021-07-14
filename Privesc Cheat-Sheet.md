@@ -63,10 +63,10 @@ touch /home/user/--checkpoint-action=exec=sh\ runme.sh
 
 ## Automated Tools
 
-1.Linpeas
+1.Linpeas | https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
 
-2.LinEnum
+2.LinEnum | https://github.com/rebootuser/LinEnum
 
-3.Linux exploit suggester
+3.Linux exploit suggester | https://github.com/mzet-/linux-exploit-suggester
 
-4.Linux privchecker
+4.Linux privchecker | https://github.com/sleventyeleven/linuxprivchecker
